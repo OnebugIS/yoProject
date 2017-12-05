@@ -1,0 +1,14 @@
+@import "$yo-config/core/reset";
+@import "$yo-config/layout/yo-root";
+@import "$yo-config/layout/yo-flex";
+@import "$yo-config/element/yo-btn";
+
+@include yo-btn(
+    $name: light,
+    $border-width: 1px,
+    $border-color: #666,
+    $bgcolor: #fff,
+    $color: #333
+){
+    margin: .1rem;
+};

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Demo</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no,email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="自定义" />
+    <link rel="apple-touch-icon-precomposed" href="自定义" />
+    <link rel="stylesheet" href="../../prd/page/index@VERSION.css">
+    <script>
+        document.ontouchmove = function(e) {
+            if (e.target.tagName.toUpperCase() !== 'IFRAME') {
+                e.preventDefault();
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="yo-root" id="root"></div>
+    <script type="text/javascript" src="../../prd/lib@VERSION.js"></script>
+    <script type="text/javascript" src="../../prd/page/index@VERSION.js"></script>
+</body>
+</html>

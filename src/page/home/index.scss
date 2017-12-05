@@ -1,0 +1,21 @@
+@import "$yo-config/core/reset";
+@import "$yo-config/layout/yo-root";
+@import "$yo-config/layout/yo-flex";
+
+.m-content {
+    .title {
+        text-align: center;
+        font-size: .2rem;
+        color: #666666;
+        padding: .1rem;
+    } 
+    .notice {
+        text-align: center;
+        font-size: .16rem;
+        color: #555555;
+        padding: .1rem;
+    }
+    .m-content-active {
+        opacity: 0.7;
+    }
+}
